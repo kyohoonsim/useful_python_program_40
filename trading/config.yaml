@@ -1,0 +1,7 @@
+APP_KEY: "여러분이 발급받은 APP Key"
+APP_SECRET: "여러분이 발급받은 APP Secret"
+
+CANO: "계좌번호 앞 8자리" 
+ACNT_PRDT_CD: "계좌번호 뒤 2자리" 
+
+URL_BASE: "https://openapi.koreainvestment.com:9443"

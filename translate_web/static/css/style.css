@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+#header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+#source, #result {
+    margin: 20px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+#lang {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+#trans_src {
+    width: 90%;
+    height: 250px;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    resize: none;
+}
+
+#trans_src:focus {
+    outline: none;
+}
+
+#trans_src::placeholder {
+    font-weight: bold;
+}
+
+#trans_btn {
+    border-top: 1px solid rgba(0,0,0,.05);
+    text-align: right;
+}
+
+#trans_btn button {
+    height: 60px;
+    width: 120px;
+    color: white;
+    background-color: #1eda69;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#trans_dst {
+    height:  250px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#trans_dst1 {
+    height: 60px;
+    border-top: 1px solid rgba(0,0,0,.05);
+}

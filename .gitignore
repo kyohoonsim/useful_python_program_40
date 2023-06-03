@@ -1,0 +1,15 @@
+.venv/
+test*.py
+*.spec
+*.sqlite
+orm/
+*.exe
+dist/
+build/
+*.h5
+mask/
+nomask/
+
+.backup/
+
+README_secret.md

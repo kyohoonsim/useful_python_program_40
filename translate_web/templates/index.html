@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>심파고</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div id="header">
+        <img src="{{url_for('static', filename='img/simpago_icon.png')}}" width="200" height="50">
+    </div>
+    
+    <div id="source">
+        <div id="lang">
+            <div>한국어	&#8744;</div>
+            <div>영어 &#8744;</div>
+        </div>
+        <textarea name="trans_src" id="trans_src" placeholder="번역할 내용을 입력하세요."></textarea>
+        <div id="trans_btn">
+            <button onclick="trans()">번역하기</button>
+        </div>
+        
+    </div>
+
+    <div id="result">
+        <div id="trans_dst">
+            
+        </div>
+        <div id="trans_dst1">
+
+        </div>
+    </div>
+
+    <script>
+        function trans(){
+            var trans_src = $('#trans_src').val();
+            var postdata = {
+                'trans_src': trans_src,
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: "{{ url_for('translate') }}",
+                data: JSON.stringify(postdata),
+                dataType: 'JSON',
+                contentType: 'application/json',
+                success: function(report){
+                    $('#trans_dst').text(report.result);
+                }
+            })
+        }
+        
+    </script>
+</body>
+</html>

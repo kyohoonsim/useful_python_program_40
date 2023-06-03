@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_658d43c714b786cf15eee7565ae7a6d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_658d43c714b786cf15eee7565ae7a6d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_658d43c714b786cf15eee7565ae7a6d4 = L.map(
+                "map_658d43c714b786cf15eee7565ae7a6d4",
+                {
+                    center: [37.14315, 128.2016],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d3c090f725c722b2edfd6a18219a974 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+            var marker_8b2a0318e38d626861c3491602470ca9 = L.marker(
+                [37.133959484, 128.218908067],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_664b95b36aa4e0fdce51b20bf9112c2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be6bc2978a3ca03f4912d75c24830ed2 = $(`<div id="html_be6bc2978a3ca03f4912d75c24830ed2" style="width: 100.0%; height: 100.0%;">막국수집</div>`)[0];
+                popup_664b95b36aa4e0fdce51b20bf9112c2a.setContent(html_be6bc2978a3ca03f4912d75c24830ed2);
+            
+        
+
+        marker_8b2a0318e38d626861c3491602470ca9.bindPopup(popup_664b95b36aa4e0fdce51b20bf9112c2a)
+        ;
+
+        
+    
+    
+            var marker_119be2a0b28b8bda55d374a1af01fd9e = L.marker(
+                [37.148687051, 128.208145312],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_cfc1a2f06243b8cc9cee621b2cb88028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09f0fca30d2807508bc22cea052aa0b1 = $(`<div id="html_09f0fca30d2807508bc22cea052aa0b1" style="width: 100.0%; height: 100.0%;">냉면집</div>`)[0];
+                popup_cfc1a2f06243b8cc9cee621b2cb88028.setContent(html_09f0fca30d2807508bc22cea052aa0b1);
+            
+        
+
+        marker_119be2a0b28b8bda55d374a1af01fd9e.bindPopup(popup_cfc1a2f06243b8cc9cee621b2cb88028)
+        ;
+
+        
+    
+    
+            var marker_9e71d2df66167e38f8fe2542bea36116 = L.marker(
+                [37.13797613, 128.211454555],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_d754f4bd76496098dc42e4bcded69296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a2c1629cf9131b911d6d48f306b388 = $(`<div id="html_a5a2c1629cf9131b911d6d48f306b388" style="width: 100.0%; height: 100.0%;">파스타집</div>`)[0];
+                popup_d754f4bd76496098dc42e4bcded69296.setContent(html_a5a2c1629cf9131b911d6d48f306b388);
+            
+        
+
+        marker_9e71d2df66167e38f8fe2542bea36116.bindPopup(popup_d754f4bd76496098dc42e4bcded69296)
+        ;
+
+        
+    
+    
+            var marker_f8e66c670b7875f321850ff8a9367171 = L.marker(
+                [37.166012077, 128.169554986],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_b0199f5cffe1d34a41658b0f8c3869b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d14dc2d943aace1a060be78b782efd6 = $(`<div id="html_7d14dc2d943aace1a060be78b782efd6" style="width: 100.0%; height: 100.0%;">장어집</div>`)[0];
+                popup_b0199f5cffe1d34a41658b0f8c3869b8.setContent(html_7d14dc2d943aace1a060be78b782efd6);
+            
+        
+
+        marker_f8e66c670b7875f321850ff8a9367171.bindPopup(popup_b0199f5cffe1d34a41658b0f8c3869b8)
+        ;
+
+        
+    
+    
+            var marker_50ea91631a4f3f7bf558d754abd22e54 = L.marker(
+                [37.138651167, 128.213712376],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_8b0d857fc4b91b4fd42c60872465ff3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d282fdda1b2ddb97980f70802621b694 = $(`<div id="html_d282fdda1b2ddb97980f70802621b694" style="width: 100.0%; height: 100.0%;">순대집</div>`)[0];
+                popup_8b0d857fc4b91b4fd42c60872465ff3c.setContent(html_d282fdda1b2ddb97980f70802621b694);
+            
+        
+
+        marker_50ea91631a4f3f7bf558d754abd22e54.bindPopup(popup_8b0d857fc4b91b4fd42c60872465ff3c)
+        ;
+
+        
+    
+    
+            var marker_a01f9ae63d28091bad56e40e60ffe9f6 = L.marker(
+                [37.178242774, 128.210211506],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_7461197784b23d368f22a5564dc40f55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_647bf7ef3923a6c2b747bea37c9ce381 = $(`<div id="html_647bf7ef3923a6c2b747bea37c9ce381" style="width: 100.0%; height: 100.0%;">돈까스집</div>`)[0];
+                popup_7461197784b23d368f22a5564dc40f55.setContent(html_647bf7ef3923a6c2b747bea37c9ce381);
+            
+        
+
+        marker_a01f9ae63d28091bad56e40e60ffe9f6.bindPopup(popup_7461197784b23d368f22a5564dc40f55)
+        ;
+
+        
+    
+    
+            var marker_1338ea57dbdba56ad28f9e1075708bb6 = L.marker(
+                [37.181245987, 128.212534423],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_603b3b1a8e64d475a2f0e3b053db9156 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_923145fb174fc29df3d28f438f13579b = $(`<div id="html_923145fb174fc29df3d28f438f13579b" style="width: 100.0%; height: 100.0%;">카페1</div>`)[0];
+                popup_603b3b1a8e64d475a2f0e3b053db9156.setContent(html_923145fb174fc29df3d28f438f13579b);
+            
+        
+
+        marker_1338ea57dbdba56ad28f9e1075708bb6.bindPopup(popup_603b3b1a8e64d475a2f0e3b053db9156)
+        ;
+
+        
+    
+    
+            var marker_aa84c22740bb98d2153a5433b6736cd4 = L.marker(
+                [37.163572172, 128.214119901],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_75e057286c7d4cd97f299a9df51de8ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93177e982756dcb95c1cd30a4375330f = $(`<div id="html_93177e982756dcb95c1cd30a4375330f" style="width: 100.0%; height: 100.0%;">카페2</div>`)[0];
+                popup_75e057286c7d4cd97f299a9df51de8ff.setContent(html_93177e982756dcb95c1cd30a4375330f);
+            
+        
+
+        marker_aa84c22740bb98d2153a5433b6736cd4.bindPopup(popup_75e057286c7d4cd97f299a9df51de8ff)
+        ;
+
+        
+    
+    
+            var marker_c2393c0eb71995c350e85114220edd5f = L.marker(
+                [37.183133123, 128.204626528],
+                {}
+            ).addTo(map_658d43c714b786cf15eee7565ae7a6d4);
+        
+    
+        var popup_658eda618242f5c0be07ee4e402646bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbaa566158fb1a762db476aca9be4c80 = $(`<div id="html_bbaa566158fb1a762db476aca9be4c80" style="width: 100.0%; height: 100.0%;">카페3</div>`)[0];
+                popup_658eda618242f5c0be07ee4e402646bf.setContent(html_bbaa566158fb1a762db476aca9be4c80);
+            
+        
+
+        marker_c2393c0eb71995c350e85114220edd5f.bindPopup(popup_658eda618242f5c0be07ee4e402646bf)
+        ;
+
+        
+    
+</script>
+</html>
