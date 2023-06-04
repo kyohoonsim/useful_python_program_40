@@ -13,3 +13,5 @@ nomask/
 .backup/
 
 README_secret.md
+
+face_analyze_5.py
