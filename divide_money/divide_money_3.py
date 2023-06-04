@@ -7,7 +7,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("각출 금액 랜덤 분할")
+        self.setWindowTitle("갹출 금액 랜덤 분할")
         self.setFixedWidth(600)
 
         self.amount = 0
