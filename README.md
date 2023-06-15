@@ -11,6 +11,6 @@
 - [YES24](https://www.yes24.com/Product/Goods/119632804)
 - [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=318875239)
 
-<div style="text-align: center; margin: 0 auto;">
-  <img src="https://github.com/kyohoonsim/useful_python_program_40/assets/58966525/68b30f5b-4954-4b49-a304-3b765e7c2681"  width="400px" style="margin: 0 auto;">
+<div style="text-align: center; margin: 0 auto !important;">
+  <img src="https://github.com/kyohoonsim/useful_python_program_40/assets/58966525/68b30f5b-4954-4b49-a304-3b765e7c2681"  width="400px">
 </div>
