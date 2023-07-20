@@ -10,7 +10,7 @@
 
 ## 구매 안내
 
-사전 예약 판매가 시작되었습니다. 🎂 🎆
+온오프라인 서점에서 구매하실 수 있습니다. 🎂
 
 - [교보문고](https://product.kyobobook.co.kr/detail/S000202678019)
 - [YES24](https://www.yes24.com/Product/Goods/119632804)
@@ -21,4 +21,9 @@
 파이썬 초보자가 꼭 알아야할 내용만 정리해두었습니다. 
 
 <https://github.com/kyohoonsim/must-know-python>
+
+## 책을 함께 공부하기 원하시면
+
+카카오톡 오픈채팅방을 개설했습니다.
+
 
