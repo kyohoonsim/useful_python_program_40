@@ -4,6 +4,8 @@
 
 소스 코드 실행 시 오류가 나거나, 개선했으면 하는 사항에 대해서 자유롭게 피드백 주시면 감사하겠습니다.
 
+질문 및 피드백은 [https://vault.dev-sim.com/post/216](https://vault.dev-sim.com/post/216)의 댓글을 이용해주세요.
+
 <div style="text-align: center; margin: 0 auto !important;">
   <img src="https://github.com/kyohoonsim/useful_python_program_40/assets/58966525/68b30f5b-4954-4b49-a304-3b765e7c2681"  width="400px">
 </div>
@@ -22,6 +24,6 @@
 
 <https://github.com/kyohoonsim/must-know-python>
 
-## 2024년 세종도서 학술부문 추천도서에 선정되었습니다!
+## 2024년 세종도서 학술부문 추천도서에 선정되었습니다! (2024-12-31)
 
 제 저서가 추천도서에 선정되다니 신기하고 감사하네요. :D
