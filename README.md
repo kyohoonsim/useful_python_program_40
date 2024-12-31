@@ -22,3 +22,6 @@
 
 <https://github.com/kyohoonsim/must-know-python>
 
+## 2024년 세종도서 학술부문 추천도서에 선정되었습니다!
+
+제 저서가 추천도서에 선정되다니 신기하고 감사하네요. :D
